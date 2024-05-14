@@ -1,3 +1,3 @@
 #Front-end Project website links
 
--[App link](https://bg-changer-by-sanjay.netlify.app/)
+-[bg-changer-link](https://bg-changer-by-sanjay.netlify.app/)
