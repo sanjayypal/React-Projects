@@ -1,3 +1,5 @@
 #Front-end Project website links
 
--[bg-changer-link](https://bg-changer-by-sanjay.netlify.app/)
+-[bg-changer](https://bg-changer-by-sanjay.netlify.app/)
+
+-[password-generator](https://password-generator-by-sanjay.netlify.app/)
