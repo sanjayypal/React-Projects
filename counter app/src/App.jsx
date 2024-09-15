@@ -18,7 +18,7 @@ const [counter,setCounter] = useState(10);
     <>
      <h1> Chai Aur React</h1>
      <br />
-     <h1>Counter : {counter} </h1>
+     <h1>Counter Value : {counter} </h1>
      <button
       onClick={addValue}
      >Add Value</button>
