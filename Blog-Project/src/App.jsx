@@ -11,9 +11,6 @@ function App() {
   const [loading, setLoading] = useState(true)
   const dispatch = useDispatch()
 
-  const apiUrl = import.meta.env.VITE_APPWRITE_URL
-  console.log("apiUrl ",apiUrl);
-
   useEffect(() => {
     authService.getCurrentUser()
     .then((userData) => {

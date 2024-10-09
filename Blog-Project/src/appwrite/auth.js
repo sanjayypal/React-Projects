@@ -38,16 +38,17 @@ export class AuthService {
 
     async getCurrentUser() {
         try {
-            return await this.account.get();
+            const data = await this.account.get();
+            return data;
         } catch (error) {
             console.log("Appwrite serive :: getCurrentUser :: error", error);
+            return false;
         }
 
         return null;
     }
 
     async logout() {
-
         try {
             await this.account.deleteSessions();
         } catch (error) {
